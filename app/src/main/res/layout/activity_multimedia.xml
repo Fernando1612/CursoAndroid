@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.multimedia">
+
+    <Button
+        android:text="Elegir audio"
+        android:id="@+id/boton1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:text="Elegir imagen"
+        android:id="@+id/boton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:text="Elegir video"
+        android:id="@+id/boton3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:text="Grabar audio"
+        android:id="@+id/boton4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:text="Llamar"
+        android:id="@+id/boton5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:text="Tomar foto"
+        android:id="@+id/boton6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:visibility="visible"
+        android:layout_gravity="center"
+        android:src="@mipmap/ic_launcher"
+        android:id="@+id/imagen"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"/>
+    <VideoView
+        android:visibility="visible"
+        android:id="@+id/video"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:id="@+id/txt"
+        android:visibility="visible"
+        android:text="Hola a todos"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
